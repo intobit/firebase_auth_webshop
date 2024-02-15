@@ -1,0 +1,53 @@
+.cards{
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    max-width: 250px;
+    max-height: 350px;
+    display: inline-block;
+    background-color: #ffffff;
+}
+
+.cards:hover {
+    box-shadow: 5px 5px 5px #b6dadc;
+}
+
+.cards .image_box .card_image {
+    width:  200px;
+    height: 200px;
+    border-radius: 5px;
+    background-size: cover;
+    margin-bottom: 5px;
+}
+
+.cards p {
+    font-family: "Apple Braille", sans-serif;
+    margin: 0;
+    color: black;
+}
+.cards .details .title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cards .details .price {
+    font-size: 14px;
+    color: hsl(180, 3%, 45%);
+}
+.cards .btn {
+    border-radius: 10%;
+    padding: 10px;
+    margin: 5px;
+    background-color: #77898c;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color:white;
+}
+
+.cards .btn:hover {
+    background-color: #b6dadc;
+    color: black;
+}

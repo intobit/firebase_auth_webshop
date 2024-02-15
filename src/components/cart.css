@@ -1,0 +1,74 @@
+.cart {
+    float:right;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+    margin: 20px;
+    text-align: center;
+    max-width: 250px;
+    max-height: 450px;
+    min-height: 400px;
+    display: inline-block;
+    background-color: #ffffff;
+    font-family: "Apple Braille", sans-serif;
+}
+
+.cart:hover {
+    box-shadow: 5px 5px 5px #b6dadc;
+}
+.cart .shopping{
+    font-weight: bold;
+    padding-top: 0px;
+}
+
+.cart .diff_items{
+    border: 1px solid hsl(0, 0%, 80%);
+    background-color: #c9e4e5;
+    color: hsl(180, 3%, 30%);
+    margin: 0px;
+    padding: 5px;
+}
+
+.cart .product_items{
+    border: 1px solid hsl(0, 0%, 80%);
+    background-color: #e8ffff;
+    padding-top: 5px;
+}
+.cart p{
+    font-size: 15px;
+
+
+}
+
+.cart span{
+    font-size: 15px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.cart button {
+    border-radius: 10%;
+    padding: 5px;
+    margin: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #000000;
+}
+
+.cart .btn_reset{
+    background-color: #e57ea0;
+}
+
+.cart .btn_reset:hover {
+    background-color: #d21368;
+    color: #ffffff;
+}
+
+.cart .btn_submit{
+    background-color: #7ec2ae;
+}
+
+.cart .btn_submit:hover {
+    background-color: #4e857f;
+    color: #ffffff;
+}

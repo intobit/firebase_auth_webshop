@@ -1,0 +1,38 @@
+.order_cards {
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    background-color: #ffffff;
+    font-family: "Apple Braille", sans-serif;
+}
+
+.order_cards:hover {
+    box-shadow: 5px 5px 5px #b6dadc;
+}
+
+.order_cards .inline_cards {
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+#order {
+    background-color: hsl(160, 24%, 71%);
+}
+
+#items {
+    background-color: hsl(161, 68%, 88%);
+}
+
+#total {
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.order_cards span {
+    font-weight: bold;
+}
